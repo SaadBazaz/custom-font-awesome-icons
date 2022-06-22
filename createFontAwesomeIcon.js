@@ -137,13 +137,10 @@ exports.svgPathData = svgPathData;
                     //     fs.mkdirSync(dir);
                     // }
 
-
-                    
                     // Write output to a file
-
-                    // fs.writeFile(resultsSubDir + '/' + faCamelCaseIconName + '.js', code, function (err) {
-                    //     if (err) throw err;
-                    // });
+                    fs.writeFile(resultsSubDir + '/' + faCamelCaseIconName + '.js', code, function (err) {
+                       if (err) throw err;
+                    });
 
 
 
