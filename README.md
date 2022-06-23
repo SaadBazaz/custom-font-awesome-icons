@@ -47,8 +47,11 @@ After the above import, I use them in the following way:
 ```
 
 If your subfolder is "my-custom-icons" the prefix will be "fam".
-If your subfolder is "wacky-world" the prefix will be "faw"
-If your subfolder is "brands" the prefix will be "fab"
+
+If your subfolder is "wacky-world" the prefix will be "faw".
+
+If your subfolder is "brands" the prefix will be "fab".
+
 
 So on so forth.
 
