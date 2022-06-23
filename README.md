@@ -42,7 +42,7 @@ library.add(faInstagram, faTwitter, faFacebook, faLinkedin, faGoogle, faFiverr, 
 After the above import, I use them in the following way:
 ```
 ...
-    <FontAwesomeIcon icon="fam fa-upwork"} />
+    <FontAwesomeIcon icon="fam fa-upwork" />
 ...
 ```
 
