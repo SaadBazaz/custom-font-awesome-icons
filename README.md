@@ -39,6 +39,21 @@ library.add(faInstagram, faTwitter, faFacebook, faLinkedin, faGoogle, faFiverr, 
 ...
 ```
 
+After the above import, I use them in the following way:
+```
+...
+    <FontAwesomeIcon icon="fam fa-upwork"} />
+...
+```
+
+If your subfolder is "my-custom-icons" the prefix will be "fam".
+If your subfolder is "wacky-world" the prefix will be "faw"
+If your subfolder is "brands" the prefix will be "fab"
+
+So on so forth.
+
+You can, of course, use all the other methods to use the icons, as highlighted in the [FontAwesome Documentation](https://fontawesome.com/v5/docs/web/use-with/react).
+
 
 ## ToDo
 - Improve the structure of the code
